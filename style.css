@@ -287,8 +287,28 @@ a{
 
 }
 
-@media ( max-width : 1125px){
+@media ( max-width : 1180px){
     .header {
+        min-width: 1200px;
+    }
+}
+
+@media (max-width : 1366px) {
+    .header-h1 {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width : 1037) {
+    .footer {
+        min-width: 1366px;
+    }
+}
+
+
+@media (max-width : 825px){
+    .footer {
         min-width: 1200px;
     }
 }
